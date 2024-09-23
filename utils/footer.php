@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <h3>Projeto Integrador 2024</h3>
-                <p>Desenvolvido por alunos do curso de Análise e Desenvolvimento de Sistemas da Faculdade Senac.</p>
+                <p>Desenvolvido por alunos do curso de Desenvolvimento de Sistemas da <strong> Professor Alfedo de Barros Santos</strong>.</p>
             </div>
             <div class="col-12 col-md-6 text-end">
                 <h3>Cordenado por:</h3>
