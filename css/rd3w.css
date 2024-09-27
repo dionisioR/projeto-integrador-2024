@@ -1,4 +1,56 @@
-.bg_img_01{
-    background-image: url('../img/developer-woman.jpg') !important;
+.header-galeria {
+    height: 50vh;
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: right top;
+}
+
+.header-galeria-container {
+    height: 50vh;
+    /* background-color: rgba(255, 255, 255, 0.404); */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+    background: rgb(0,0,0);
+    background: linear-gradient(72deg, rgba(0,0,0,1) 29%, rgba(64,64,64,0.22090554971988796) 72%, rgba(255,255,255,1) 100%);
+    color: aliceblue;
+}
+
+.header-galeria-container div{
+ 
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.header-galeria-container h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: left;
+
+    font-size: 4em;
+    line-height: 1;
+
+}
+
+.header-galeria-container h2 {
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    font-size: 1.5em;
+    line-height: .51;
+    text-align: left;
+
+}
+
+#header-galeria-2 {
+    background-image: url('../assets/dev02.jpg');
+}
+
+#header-galeria-1 {
+    background-image: url('../assets/dev03.jpg');
+}
+
+#btn-secundary-rd3w:hover{
+    color: darkgoldenrod !important;
 }

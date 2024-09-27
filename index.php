@@ -1,6 +1,6 @@
 <?php require_once 'utils/header.php' ?>
 <?php require_once 'utils/menu.php' ?>
-<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/rd3w.css" />
 
 
 <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -63,7 +63,7 @@
     <section class="row">
         <div class="col-12">
             <div class="my-5">
-                <h1 class="display-3">Projeto Integrador do 2º Ano do curso de D.S. </h1>
+                <h1 class="display-3">Projeto Integrador </h1>
                 <h2 class="display-6">Curso de Desenvolvimento de Sistemas - 2024</h2>
                 <div class="my-3 border-dark border-top py-3">
                     <h3>ETEC Professor Alfredo de Barros Santos</h3>
@@ -90,35 +90,58 @@
         </div>
 
         <!-- 2º ANO -->
-        <div class="col-12">
+
+        <div class="col-12 mb-3 mb-lg-5">
             <div class="card mb-3">
-                <div class="row g-0">
-                    <div class="col-md-3">
-                        <img src="./assets/dev05.jpg" class="img-fluid rounded-start" alt="programadora">
+                <div class="row g-0 d-flex align-items-center">
+                    <div class="col-lg-3" id="fig-1-ano">
+                        <img src="./assets/dev05.jpg" class="img-fluid rounded-start d-none d-lg-block" alt="programador júnior">
                     </div>
-                    <div class="col-md-9">
+                    <div class="col-lg-9">
                         <div class="card-body">
                             <h5 class="card-title display-6">Projetos do 2º Ano</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+
+                            <p>
+                                No 2º ano, os alunos desenvolvem habilidades para construir bancos de dados relacionais, projetar aplicativos e sistemas de informação utilizando linguagens de programação e ambientes de desenvolvimento adequados.
+                            </p>
+
+                            <p>
+                                Eles aprendem a otimizar consultas SQL para tomada de decisões e a desenvolver sistemas para internet com integração de banco de dados, interfaces e programação no servidor.
+                            </p>
+
+
+                            <a href="./galeria_segundo_ano.php" class="mt-lg-5 btn btn-primary">Visualizar os projetos do 2º ano</a>
+                            <a href="./view/votacao_aluno.php" target="_blank" class="mt-lg-5  btn btn-primary">Votar <i class="bi bi-ui-checks-grid"></i></a>
+
+
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
         <!-- 1º ANO -->
-        <div class="col-12">
+        <div class="col-12 mb-3 mb-lg-5">
             <div class="card mb-3">
-                <div class="row g-0">
-                    <div class="col-md-3">
-                        <img src="./assets/dev06.jpg" class="img-fluid rounded-start" alt="programador júnior">
+                <div class="row g-0 d-flex align-items-center">
+                    <div class="col-lg-3" id="fig-1-ano">
+                        <img src="./assets/dev06.jpg" class="img-fluid rounded-start d-none d-lg-block" alt="programador júnior">
                     </div>
-                    <div class="col-md-9">
+                    <div class="col-lg-9">
                         <div class="card-body">
                             <h5 class="card-title display-6">Projetos do 1º Ano</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+
+                            <p>
+                                Na 1ª série, os alunos aprendem a modelar projetos de sistemas e a distinguir diferentes sistemas computacionais. Desenvolvem habilidades para implementar algoritmos, criar páginas para a internet, e modelar bancos de dados.
+                            </p>
+                            <p>
+                                Também aprendem a construir interfaces visuais focadas em usabilidade. Ao longo do curso, articulam conhecimentos de sistemas computacionais, selecionam modelos de desenvolvimento, e aplicam princípios e paradigmas de programação para elaborar sistemas completos.
+                            </p>
+
+
+                                <a href="./galeria_primeiro_ano.php" class="btn btn-primary">Visualizar os projetos do 1º ano</a>
+                                <a href="./view/votacao_aluno.php" target="_blank" class="btn btn-primary">Votar <i class="bi bi-ui-checks-grid"></i></a>
+
                         </div>
                     </div>
                 </div>

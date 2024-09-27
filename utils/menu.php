@@ -31,23 +31,21 @@ $base_url = rtrim($base_url, '/view/produto');
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Projetos
+            Galeria de projetos
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Projeto 01</a></li>
-            <li><a class="dropdown-item" href="#">Projeto 02</a></li>
-            <li><a class="dropdown-item" href="#">Projeto 03</a></li>
-            <li><a class="dropdown-item" href="#">Projeto 04</a></li>
-            <li><a class="dropdown-item" href="#">Projeto 05</a></li>
+            <li><a class="dropdown-item" href="<?php echo $base_url; ?>/galeria_segundo_ano.php">Galeria 2º ano</a></li>
+            <li><a class="dropdown-item" href="<?php echo $base_url; ?>/galeria_primeiro_ano.php">Galeria 1º ano</a></li>
+       
          
           </ul>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" aria-current="page" href="#">Galeria</a>
-        </li>
+        </li> -->
       </ul>
       <div class="d-flex">
-        <a href="#" class="btn" id="btn-secundary-rd3w">
+        <a href="<?php echo $base_url; ?>/view/votacao_aluno.php" target="_blank" class="btn" id="btn-secundary-rd3w">
           Votar
           <i class="bi bi-ui-checks-grid"></i>
         </a>
