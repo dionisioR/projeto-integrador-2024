@@ -1,6 +1,5 @@
 <?php require_once 'utils/header.php' ?>
 <?php require_once 'utils/menu.php' ?>
-<link rel="stylesheet" href="./css/rd3w.css" />
 
 
 <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -11,37 +10,37 @@
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
     </div>
 
-    <div class="carousel-inner">
+    <div class="carousel-inner text-white">
 
         <div class="carousel-item active" data-bs-interval="10000">
             <img src="./assets/dev01.jpg" class="d-block w-100" alt="dev">
             <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+                <h5 class="text-white h1">Educação de qualidade</h5>
+                <p class="text-white ">Transformar vidas através do conhecimento.</p>
             </div>
         </div>
 
         <div class="carousel-item" data-bs-interval="2000">
             <img src="./assets/dev02.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
+            <h5 class="text-white h1">Disciplina e foco</h5>
+            <p class="text-white ">Disciplina e foco são os pilares do sucesso.</p>
             </div>
         </div>
 
         <div class="carousel-item">
             <img src="./assets/dev03.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
+            <h5 class="text-white h1"> Trabalho em equipe</h5>
+            <p class="text-white ">Trabalho em equipe transforma esforços individuais em conquistas coletivas.</p>
             </div>
         </div>
 
         <div class="carousel-item">
             <img src="./assets/dev04.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
+            <h5 class="text-white h1">Programação</h5>
+            <p class="text-white ">Programação é a arte de transformar ideias em soluções através do códigos.</p>
             </div>
         </div>
 

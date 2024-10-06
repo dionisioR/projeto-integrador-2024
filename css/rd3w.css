@@ -54,3 +54,8 @@
 #btn-secundary-rd3w:hover{
     color: darkgoldenrod !important;
 }
+
+.logo{
+    width: 32px;
+    border-radius: 50%;
+}

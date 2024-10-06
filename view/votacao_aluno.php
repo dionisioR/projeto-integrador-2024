@@ -3,6 +3,7 @@ require_once('../utils/header.php');?>
 <?php
 require_once('../utils/menu.php');
 ?>
+<link rel="stylesheet" href="../css/rd3w.css">
 
 <style>
     .div{
