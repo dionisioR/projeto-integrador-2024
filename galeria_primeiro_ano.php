@@ -13,7 +13,7 @@
 
 <main class="container mb-3 mb-lg-5">
     <div class="m-5">
-        <h2>Galeria de projetos do 2º anos.</h2>
+        <h2>Galeria de projetos do 1º anos.</h2>
     </div>
 
     <div class="row">

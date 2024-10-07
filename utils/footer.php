@@ -3,7 +3,7 @@
         <div class="row">
             
             <div class="col-12 col-md-8  text-start">
-                <h3>Cordenado por:</h3>
+                <h3>Coordenado por:</h3>
                 <p>Professores: Jonhson / Dionisio.</p>
 
                 <h3>Apoio:</h3>
@@ -11,9 +11,9 @@
                 <i class="bi bi-browser-chrome"></i> https://hubsapiens.com.br/ </p>
             </div>
 
-            <div class="col-12 col-md-4 text-end">
+            <div class="col-12 col-md-4 text-md-end text-start">
                 <h3>Projeto Integrador 2024</h3>
-                <p>Desenvolvido por alunos do curso de Desenvolvimento de Sistemas da <strong> Professor Alfedo de Barros Santos</strong>.</p>
+                <p>Desenvolvido por alunos do curso de Desenvolvimento de Sistemas da <strong>ETEC Professor Alfedo de Barros Santos</strong>.</p>
             </div>
 
         </div>

@@ -1,59 +1,62 @@
 <?php require_once 'utils/header.php' ?>
 <?php require_once 'utils/menu.php' ?>
 
+<link rel="stylesheet" href="./css/rd3w.css">
+<link rel="shortcut icon" href="./assets/logo.jpeg" type="image/jpeg">
 
-<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+<div id=" carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+<div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+</div>
+
+<div class="carousel-inner text-white">
+
+    <div class="carousel-item active" data-bs-interval="10000">
+        <img src="./assets/dev01.jpg" class="d-block w-100" alt="dev">
+        <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-white h1">Educação de qualidade</h5>
+            <p class="text-white ">Transformar vidas através do conhecimento.</p>
+        </div>
     </div>
 
-    <div class="carousel-inner text-white">
-
-        <div class="carousel-item active" data-bs-interval="10000">
-            <img src="./assets/dev01.jpg" class="d-block w-100" alt="dev">
-            <div class="carousel-caption d-none d-md-block">
-                <h5 class="text-white h1">Educação de qualidade</h5>
-                <p class="text-white ">Transformar vidas através do conhecimento.</p>
-            </div>
-        </div>
-
-        <div class="carousel-item" data-bs-interval="2000">
-            <img src="./assets/dev02.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+    <div class="carousel-item" data-bs-interval="2000">
+        <img src="./assets/dev02.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
             <h5 class="text-white h1">Disciplina e foco</h5>
             <p class="text-white ">Disciplina e foco são os pilares do sucesso.</p>
-            </div>
         </div>
+    </div>
 
-        <div class="carousel-item">
-            <img src="./assets/dev03.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+    <div class="carousel-item">
+        <img src="./assets/dev03.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
             <h5 class="text-white h1"> Trabalho em equipe</h5>
             <p class="text-white ">Trabalho em equipe transforma esforços individuais em conquistas coletivas.</p>
-            </div>
         </div>
+    </div>
 
-        <div class="carousel-item">
-            <img src="./assets/dev04.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+    <div class="carousel-item">
+        <img src="./assets/dev04.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
             <h5 class="text-white h1">Programação</h5>
             <p class="text-white ">Programação é a arte de transformar ideias em soluções através do códigos.</p>
-            </div>
         </div>
-
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
 
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+</button>
+
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+</button>
 
 </div>
 
@@ -69,7 +72,7 @@
                 </div>
                 <div>
                     <p class="fs-5">
-                        Este projeto integrador é uma iniciativa do 2º ano do curso de Desenvolvimento de Sistemas, desenvolvido com o propósito de consolidar e aplicar as competências adquiridas ao longo do curso. O objetivo principal é oferecer uma experiência prática que una teoria e prática, promovendo a aplicação dos conhecimentos em um contexto real e desafiador.
+                        Este projeto integrador é uma iniciativa do 1º e 2º ano do curso de Desenvolvimento de Sistemas, desenvolvido com o propósito de consolidar e aplicar as competências adquiridas ao longo do curso. O objetivo principal é oferecer uma experiência prática que una teoria e prática, promovendo a aplicação dos conhecimentos em um contexto real e desafiador.
                     </p>
                     <p class="fs-5">
                         Ao longo deste projeto, os alunos têm a oportunidade de explorar e integrar diversas disciplinas, trabalhando de forma colaborativa para resolver problemas complexos e criar soluções inovadoras. Através da interdisciplinaridade, buscamos promover uma compreensão mais profunda dos conceitos, incentivando a criatividade e o pensamento crítico.
@@ -109,8 +112,8 @@
                             </p>
 
 
-                            <a href="./galeria_segundo_ano.php" class="mt-lg-5 btn btn-primary">Visualizar os projetos do 2º ano</a>
-                            <a href="./view/votacao_aluno.php" target="_blank" class="mt-lg-5  btn btn-primary">Votar <i class="bi bi-ui-checks-grid"></i></a>
+                            <a href="./galeria_segundo_ano.php" class="mt-lg-5 btn btn-primary mt-2 mt-sm-0">Visualizar os projetos do 2º ano</a>
+                            <a href="./view/votacao_aluno.php" target="_blank" class="mt-lg-5  btn btn-primary mt-2 mt-sm-0">Votar <i class="bi bi-ui-checks-grid"></i></a>
 
 
 
@@ -131,15 +134,15 @@
                             <h5 class="card-title display-6">Projetos do 1º Ano</h5>
 
                             <p>
-                                Na 1ª série, os alunos aprendem a modelar projetos de sistemas e a distinguir diferentes sistemas computacionais. Desenvolvem habilidades para implementar algoritmos, criar páginas para a internet, e modelar bancos de dados.
+                                No 1º ano, os alunos aprendem a modelar projetos de sistemas e a distinguir diferentes sistemas computacionais. Desenvolvem habilidades para implementar algoritmos, criar páginas para a internet, e modelar bancos de dados.
                             </p>
                             <p>
                                 Também aprendem a construir interfaces visuais focadas em usabilidade. Ao longo do curso, articulam conhecimentos de sistemas computacionais, selecionam modelos de desenvolvimento, e aplicam princípios e paradigmas de programação para elaborar sistemas completos.
                             </p>
 
 
-                                <a href="./galeria_primeiro_ano.php" class="btn btn-primary">Visualizar os projetos do 1º ano</a>
-                                <a href="./view/votacao_aluno.php" target="_blank" class="btn btn-primary">Votar <i class="bi bi-ui-checks-grid"></i></a>
+                            <a href="./galeria_primeiro_ano.php" class="btn btn-primary mt-2 mt-sm-0">Visualizar os projetos do 1º ano</a>
+                            <a href="./view/votacao_aluno.php" target="_blank" class="btn btn-primary mt-2 mt-sm-0">Votar <i class="bi bi-ui-checks-grid"></i></a>
 
                         </div>
                     </div>
