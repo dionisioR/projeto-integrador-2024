@@ -2,10 +2,10 @@
 // Arquivo: config/db.php
 
 class Database {
-    private $host = "localhost";
-    private $db_name = "projeto_estudo_php_vendas";
-    private $username = "root";
-    private $password = "";
+    private $host = "br612.hostgator.com.br";
+    private $db_name = "hubsap45_bd_projeto";
+    private $username = "hubsap45_rodbrid";
+    private $password = "Bl@ck"."$"."kull-project";
     public $conn;
 
     public function getConnection() {
