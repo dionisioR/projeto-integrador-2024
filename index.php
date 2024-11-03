@@ -113,7 +113,8 @@
 
 
                             <a href="./galeria_segundo_ano.php" class="mt-lg-5 btn btn-primary mt-2 mt-sm-0">Visualizar os projetos do 2º ano</a>
-                            <a href="./view/votacao_aluno.php" target="_blank" class="mt-lg-5  btn btn-primary mt-2 mt-sm-0">Votar <i class="bi bi-ui-checks-grid"></i></a>
+                            <!-- <a href="./view/votacao_aluno.php" target="_blank" class="mt-lg-5  btn btn-primary mt-2 mt-sm-0">Votar <i class="bi bi-ui-checks-grid"></i></a> -->
+                            <a href="./meuvoto.php" target="_blank" class="mt-lg-5  btn btn-primary mt-2 mt-sm-0">Votar <i class="bi bi-ui-checks-grid"></i></a>
 
 
 
@@ -142,7 +143,8 @@
 
 
                             <a href="./galeria_primeiro_ano.php" class="btn btn-primary mt-2 mt-sm-0">Visualizar os projetos do 1º ano</a>
-                            <a href="./view/votacao_aluno.php" target="_blank" class="btn btn-primary mt-2 mt-sm-0">Votar <i class="bi bi-ui-checks-grid"></i></a>
+                            <!-- <a href="./view/votacao_aluno.php" target="_blank" class="btn btn-primary mt-2 mt-sm-0">Votar <i class="bi bi-ui-checks-grid"></i></a> -->
+                            <a href="./meuvoto.php" target="_blank" class="btn btn-primary mt-2 mt-sm-0">Votar <i class="bi bi-ui-checks-grid"></i></a>
 
                         </div>
                     </div>

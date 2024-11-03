@@ -47,7 +47,8 @@ $base_url = rtrim($base_url, '/view/produto');
         </li> -->
       </ul>
       <div class="d-flex">
-        <a href="<?php echo $base_url; ?>/view/votacao_aluno.php" target="_blank" class="btn" id="btn-secundary-rd3w">
+        <!-- <a href="<?php echo $base_url; ?>/view/votacao_aluno.php" target="_blank" class="btn" id="btn-secundary-rd3w"> -->
+        <a href="<?php echo $base_url; ?>/meuvoto.php" target="_blank" class="btn" id="btn-secundary-rd3w">
           Votar
           <i class="bi bi-ui-checks-grid"></i>
         </a>
